@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+     <!-- navbar start -->
+    
+<nav class="bg-white fixed w-full border-gray-200 dark:bg-gray-900 z-30 border-b-2 border-solid">
+    <div class="tw-container tw-m-auto tw-px-5 md:tw-px-20  max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="/" class="flex items-center">
+        <img src="images/logo.png" class="w-36 md:w-36" alt="">
+    </a>
+    <div class="flex items-center md:order-2 gap-3">
+        <a href="cart.html"><i class="fa-solid fa-cart-shopping text-2xl hover:text-[#ff6759]"></i> </a> 
+        <div>
+            <button type="button" class="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
+                <span class="sr-only">Open user menu</span>
+                <img class="w-8 h-8 rounded-full" src="images/dash-b.webp" alt="user photo">
+              </button>
+              
+              <!-- Dropdown menu -->
+              
+              <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600" id="user-dropdown">
+                <div class="px-4 py-3">
+                  <span class="block text-sm text-gray-900 dark:text-white">Bonnie Green</span>
+                  <span class="block text-sm  text-gray-500 truncate dark:text-gray-400">name@flowbite.com</span>
+                </div>
+                <ul class="py-2" aria-labelledby="user-menu-button">
+                  <li>
+                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Dashboard</a>
+                  </li>
+                  <li>
+                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Settings</a>
+                  </li>
+                  <li>
+                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Earnings</a>
+                  </li>
+                  <li>
+                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign out</a>
+                  </li>
+                </ul>
+              </div>
+              
+        </div>
+    
+        <button data-collapse-toggle="navbar-user" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-user" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
+    </div>
+    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-user">
+        <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <li><a class="hover:text-[#ff6759]" href="index.html">Home</a></li>
+            <li><a class="hover:text-[#ff6759]" href="about.html">About</a></li>
+            <li><a class="hover:text-[#ff6759]" href="contact.html">Contact</a></li>
+          </ul>
+
+    </div>
+    </div>
+  </nav>
+  
+    <!-- navbar end -->
+    <section class="bg-cover h-[500px] flex flex-col items-center justify-center"
+    style="background:linear-gradient(#000000ce,#000000ce), url('images/hero.jpg');">
+
+        <div class="text-center mx-auto w-full md:w-2/3 px-5 md:px-10">
+          <h1 class="text-[#ffffff] font-bold leading-[50px] md:leading-[72px] font-roboto text-[35px] md:text-[72px]">TURNING YOUR IDEAS INTO BRANDS, PRODUCTS, AND COMMUNITY</h1>
+        </div>
+    </section>
+     <section class="pt-6 container px-2 md:px-20">
+        <div class="flex flex-col-reverse md:flex-row px-10 md:px-20 speac-x-0 md:space-x-20">
+            <div class="w-full md:w-1/2 pt-14">
+                <h2 class="text-[#000000] text-center md:text-left leading-[24px] md:leading-[36px] font-bold font-roboto text-[24px] md:text-[35px]">We’re here for you and<br> your brand</h2>
+                <p class="text-[#000000] pt-4 font-normal leading-4 md:leading-6 text-center md:text-left text-[10px] md:text-[16px] font-roboto">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+            </div>
+            <div class="w-full md:w-1/2 mt-6 md:mt-0">
+                <img src="images/about1.jpg" alt="" class="rounded-xl">
+            </div>
+        </div>
+        <div class="flex flex-col md:flex-row pt-12 px-10 md:px-20 space-x-0 md:space-x-20">
+            <div class="w-full md:w-1/2">
+                <img src="images/about2.jpg" alt="" class="rounded-xl">
+            </div>
+            <div class="w-full md:w-1/2 pt-8 md:pt-14">
+                <h2 class="text-[#000000] leading-[30px] md:leading-[36px] font-bold font-roboto text-center md:text-right text-[24px] md:text-[35px]">Helping you grow is what<br> keeps us going</h2>
+                <p class="text-[#000000] pt-4 font-normal leading-4 md:leading-6 text-[10px] md:text-[16px] text-center md:text-right font-roboto">You trust us with your reputation, so we deliver quality you can rely on. We’re here to turn your ideas into products that make a lasting, meaningful impression.</p>
+            </div>
+        </div>
+        <div class="flex flex-col-reverse md:flex-row pt-12 px-10 md:px-20 space-x-0 md:space-x-20">
+            <div class="w-full md:w-1/2 pt-8 md:pt-14">
+                <h2 class="text-[#000000] leading-[24px] md:leading-[36px] font-bold font-roboto text-[24px] md:text-[35px]">A one-stop shop for<br> enterprises</h2>
+                <p class="text-[#000000] pt-4 font-normal leading-4 md:leading-6 text-[10px] md:text-[16px] text-center md:text-left font-roboto">From data-driven strategies to unique products, we’ll provide you with an efficient A–Z business experience. Using personalized solutions and in-house experts, we want to help your brand thrive in ecommerce.</p>
+            </div>
+            <div class="w-full md:w-1/2">
+                <img src="images/about3.jpg" alt="" class="rounded-xl">
+            </div>
+        </div>
+    </section>
+   <section class="bg-[#ff5344] mt-8">
+        <div class="flex flex-col md:flex-row justify-between px-2 md:px-20 pt-14 pb-14">
+            <div class="text-center">
+                <h3 class="text-[#ffffff] font-semibold leading-[36px] font-roboto text-[36px]">20 years</h3>
+                <p class="text-[#ffffff] font-normal leading-[16px] text-[16px] font-roboto pt-3">of experience</p>
+            </div>
+            <div class="text-center">
+                <h3 class="text-[#ffffff] mt-10 md:mt-0  font-semibold leading-[36px] font-roboto text-[36px]">50K+</h3>
+                <p class="text-[#ffffff] font-normal leading-[16px] text-[20px] md:text-[16px] font-roboto pt-2">Items produced daily</p>
+            </div>
+            <div class="text-center">
+                <h3 class="text-[#ffffff] mt-10 md:mt-0  font-semibold leading-[36px] font-roboto text-[36px]">95%</h3>
+                <p class="text-[#ffffff] font-normal leading-[16px] text-[20px] md:text-[16px] font-roboto pt-2">Shipped out in 48 hours</p>
+            </div>
+            <div class="text-center">
+                <h3 class="text-[#ffffff] mt-10 md:mt-0 font-semibold leading-[36px] font-roboto text-[36px]">9.8M</h3>
+                <p class="text-[#ffffff] font-normal leading-[16px] text-[20px] md:text-[16px] font-roboto pt-2">Items shipped in 2020</p>
+            </div>
+            <div class="text-center">
+                <h3 class="text-[#ffffff] mt-10 md:mt-0 font-semibold leading-[36px] font-roboto text-[36px]">99.3%</h3>
+                <p class="text-[#ffffff] font-normal leading-[16px] text-[20px] md:text-[16px] font-roboto pt-2">Customer satisfaction</p>
+            </div>
+        </div>
+    </section>
+    <section class="mt-20 pb-20">
+        <div class="flex flex-col md:flex-row space-x-0 md:space-x-20 px-2 md:px-20 ">
+            <div class="flex flex-col md:flex-row space-x-0 md:space-x-4 w-full md:w-2/3">
+                <i class="fa-solid fa-globe text-[#000000] text-5xl text-center md:text-left"></i>
+                <div>
+                   <h3 class="text-[#000000] font-extrabold leading-[32px] font-roboto text-[24px] text-center md:text-left mt-4 md:mt-0">Global fulfillment</h3>
+                   <p class="text-center md:text-left">Get fast fulfillment and enjoy good shipping rates. We print where your customers are and work with the most demanded carriers.</p>
+                </div>
+                
+            </div>
+            <div class="flex flex-col md:flex-row space-x-0 md:space-x-4 w-full md:w-2/3 mt-6 md:mt-0">
+                <i class="fa-solid fa-receipt text-[#000000] text-5xl text-center md:text-left"></i>
+                <div>
+                   <h3 class="text-[#000000] font-extrabold leading-[32px] font-roboto text-[24px] text-center md:text-left mt-4 md:mt-0">Easy-to-use design tools</h3>
+                   <p class="pt-1 text-center md:text-left">Create your designs using our Design Maker. Choose from a variety of clipart, shapes, symbols, and access over 80 million premium stock photos and illustrations from Getty Images.</p>
+                </div>
+                
+            </div>
+        </div>
+        <div class="flex flex-col md:flex-row space-x-0 md:space-x-20 px-2 md:px-20 pt-6 md:pt-20">
+            <div class="flex flex-col md:flex-row space-x-0 md:space-x-4 w-full md:w-2/3">
+                <i class="fa-solid fa-store text-[#000000] text-5xl text-center md:text-left"></i>
+                <div>
+                   <h3 class="text-[#000000] font-extrabold leading-[32px] font-roboto text-[24px] text-center md:text-left mt-4 md:mt-0">No minimums</h3>
+                   <p class="pt-1 text-center md:text-left">Save money and avoid any leftover stock. The products you sell are created only when your customer places an order.</p>
+                </div>
+                
+            </div>
+            <div class="flex flex-col md:flex-row space-x-0 md:space-x-4 w-full md:w-2/3 pt-8 md:pt-0">
+                <i class="fa-solid fa-flag-checkered text-[#000000] text-5xl text-center md:text-left"></i>
+                <div>
+                   <h3 class="text-[#000000] font-extrabold leading-[32px] font-roboto text-[24px] text-center md:text-left mt-4 md:mt-0">No upfront costs</h3>
+                   <p class="pt-1 text-center md:text-left">There are no monthly or upfront fees to pay. We only charge for fulfillment and shipping once you receive an order.</p>
+                </div>
+                
+            </div>
+        </div>
+        <div class="flex flex-col md:flex-row space-x-0 md:space-x-20 px-2 md:px-20 pt-8 md:pt-20">
+            <div class="flex flex-col md:flex-row space-x-0 md:space-x-4 w-full md:w-2/3">
+                <i class="fa-solid fa-wand-magic text-[#000000] text-5xl text-center md:text-left"></i>
+                <div>
+                   <h3 class="text-[#000000] font-extrabold leading-[32px] font-roboto text-[24px] text-center md:text-left mt-4 md:mt-0">Complete automation</h3>
+                   <p class="pt-1 text-center md:text-left ">Import products from your store automatically to make the fulfillment process quick and easy.</p>
+                </div>
+                
+            </div>
+            <div class="flex flex-col md:flex-row space-x-0 md:space-x-4 w-full md:w-2/3 mt-6 md:mt-0">
+                <i class="fa-solid fa-shirt text-[#000000] text-5xl text-center md:text-left"></i>
+                <div>
+                   <h3 class="text-[#000000] font-extrabold leading-[32px] mt-4 md:mt-0 font-roboto text-[24px] text-center md:text-left">Your custom branding</h3>
+                   <p class="pt-1 text-center md:text-left">Get all the credit! We fulfill and ship everything under your brand with custom labels, pack-ins, and more.</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+   <section class="bg-gray-100">
+        <div class="text-center pt-20">
+            <h1 class="text-[#000000] font-bold leading-[36px] text-[36px] md:text-[30px] font-roboto">Customers say this about us</h1>
+        </div>
+        <div class="flex flex-col md:flex-row justify-center gap-4 md:gap-10 px-2 md:px-20 pb-20 mt-20">
+            <div class="w-full md:w-1/3 bg-white p-10 rounded-lg drop-shadow-2xl">
+                <i class="fa-solid fa-quote-right text-[#000000] font-extrabold text-[36px] "></i>
+                <p>Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.</p>
+                <div class="flex flex-row space-x-3 pt-4">
+                    <img src="images/106x106.png" alt="" class="w-14 h-14 rounded-full">
+                    <div>
+                        <p class="text-[#000000] leading-6 font-medium text-[16px] font-roboto pt-3">Holden Caulfield</p>
+                        <p class="text-[#6b7280] font-normal leading-5 text-[14px] font-roboto">My Studio</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full md:w-1/3 bg-white p-10 rounded-lg drop-shadow-2xl">
+                <i class="fa-solid fa-quote-right text-[#000000] font-extrabold text-[36px] "></i>
+                <p>Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.</p>
+                <div class="flex flex-row space-x-3 pt-4">
+                    <img src="images/106x106.png" alt="" class="w-14 h-14 rounded-full">
+                    <div>
+                        <p class="text-[#000000] leading-6 font-medium text-[16px] font-roboto pt-3">Holden Caulfield</p>
+                        <p class="text-[#6b7280] font-normal leading-5 text-[14px] font-roboto">My Studio</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full md:w-1/3 bg-white p-10 rounded-lg drop-shadow-2xl">
+                <i class="fa-solid fa-quote-right text-[#000000] font-extrabold text-[36px] "></i>
+                <p class="text-[#000000] font-normal leading-[26px] font-roboto text-[16px]pt-3">Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.</p>
+                <div class="flex flex-row space-x-3 pt-4">
+                    <img src="images/106x106.png" alt="" class="w-14 h-14 rounded-full">
+                    <div>
+                        <p class="text-[#000000] leading-6 font-medium text-[16px] font-roboto pt-3">Holden Caulfield</p>
+                        <p class="text-[#6b7280] font-normal leading-5 text-[14px] font-roboto">My Studio</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <section class="pt-20">
+        <div class="">
+            <img src="images/faq.png" alt="" class="m-auto">
+        </div>
+
+         <div class="mt-10 w-2/3 m-auto pb-10">
+            
+<div id="accordion-color" data-accordion="collapse" data-active-classes="bg-primary text-white" > 
+    <!-- card start -->
+    <div>
+    <h2 id="accordion-color-heading-1" cl>
+      <button type="button" class="flex items-center justify-between w-full p-5  text-lg border-b-4 border-solid border-primary font-bold text-black" data-accordion-target="#accordion-color-body-1" aria-expanded="true" aria-controls="accordion-color-body-1">
+        <span class="font-roboto">What is Tailwind CSS?</span>
+        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+        </svg>
+      </button>
+    </h2>
+    <div id="accordion-color-body-1" class="hidden" aria-labelledby="accordion-color-heading-1">
+      <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+        <p class="text-[16px] font-normal leading-6 font-roboto">Tailwind is a CSS framework created by Adam Wathan. Unlike other frameworks, it does not come prebuilt with classes to add to the HTML tags. Instead, it uses a different approach. It brings a much lower level of control by using utility-based classes.</p>
+      </div>
+    </div>
+</div>
+<!-- card end -->
+    <!-- card start -->
+    <div>
+    <h2 id="accordion-color-heading-2" cl>
+      <button type="button" class="flex items-center justify-between w-full p-5  text-lg border-b-4 border-solid border-primary font-bold text-black" data-accordion-target="#accordion-color-body-2" aria-expanded="true" aria-controls="accordion-color-body-2">
+        <span class="font-roboto">what is python programming?</span>
+        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+        </svg>
+      </button>
+    </h2>
+    <div id="accordion-color-body-2" class="hidden" aria-labelledby="accordion-color-heading-2">
+      <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+       <p class="text-[16px] font-normal leading-6 font-roboto">Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.</p>
+      </div>
+    </div>
+</div>
+<!-- card end -->
+<!-- card start -->
+<div>
+    <h2 id="accordion-color-heading-2" cl>
+      <button type="button" class="flex items-center justify-between w-full p-5  text-lg border-b-4 border-solid border-primary font-bold text-black" data-accordion-target="#accordion-color-body-3" aria-expanded="true" aria-controls="accordion-color-body-3">
+        <span class="font-roboto">What is CSS Programmer?</span>
+        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+        </svg>
+      </button>
+    </h2>
+    <div id="accordion-color-body-3" class="hidden" aria-labelledby="accordion-color-heading-3">
+      <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+       <p class="text-[16px] font-normal leading-6 font-roboto">CSS developers are web professionals whose primary responsibility is to deliver a polished and styled product to the visitor’s browser. Practically every website uses CSS, but CSS is often not considered an “equal” in the modern web development stack. Unfortunately, this misperception can lead to CSS being taken for granted, or even overlooked to some extent.</p>
+      </div>
+    </div>
+</div>
+<!-- card end -->
+<!-- card start -->
+<div>
+    <h2 id="accordion-color-heading-2" cl>
+      <button type="button" class="flex items-center justify-between w-full p-5  text-lg border-b-4 border-solid border-primary font-bold text-black" data-accordion-target="#accordion-color-body-4" aria-expanded="true" aria-controls="accordion-color-body-4">
+        <span class="font-roboto">What is JavaScript?</span>
+        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+        </svg>
+      </button>
+    </h2>
+    <div id="accordion-color-body-4" class="hidden" aria-labelledby="accordion-color-heading-4">
+      <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+       <p class="text-[16px] font-normal leading-6 font-roboto">JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved. It is the third layer of the layer cake of standard web technologies, two of which (HTML and CSS) we have covered in much more detail in other parts of the Learning Area.</p>
+      </div>
+    </div>
+</div>
+<!-- card end -->
+  </div>
+  
+         </div>
+    </section>
+ 
+    <footer class="pt-5 pb-8">
+        <hr/>
+        <div class="flex flex-col md:flex-row justify-between px-10">
+            <div class="pt-6">
+                <p class="text-[#6b7280] font-normal leading-6 font-roboto text-[14px]">© 2023 Rashid Baloch. All Rights Reserved.</p>
+            </div>
+            <div class="flex flex-row space-x-4 pt-6">
+                <p class="text-[#6b7280] text-[14px] leading-5 font-medium cursor-pointer hover:border-b-2">About</p>
+                <p class="text-[#6b7280] text-[14px] leading-5 font-medium cursor-pointer hover:border-b-2">Privacy policy</p>
+                <p class="text-[#6b7280] text-[14px] leading-5 font-medium cursor-pointer hover:border-b-2">Contact</p>
+            </div>
+        </div>
+    </footer>
+    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+
+</body>
+</html>

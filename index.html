@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- navbar start -->
+    
+<nav class="bg-white fixed w-full border-gray-200 dark:bg-gray-900 z-30 border-b-2 border-solid">
+    <div class="tw-container tw-m-auto tw-px-5 md:tw-px-20  max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="/" class="flex items-center">
+        <img src="images/logo.png" class="w-36 md:w-36" alt="">
+    </a>
+    <div class="flex items-center md:order-2 gap-3">
+        <a href="cart.html"><i class="fa-solid fa-cart-shopping text-2xl hover:text-[#ff6759]"></i> </a> 
+        <div>
+            <button type="button" class="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
+                <span class="sr-only">Open user menu</span>
+                <img class="w-8 h-8 rounded-full" src="images/dash-b.webp" alt="user photo">
+              </button>
+              
+              <!-- Dropdown menu -->
+              
+              <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600" id="user-dropdown">
+                <div class="px-4 py-3">
+                  <span class="block text-sm text-gray-900 dark:text-white">Bonnie Green</span>
+                  <span class="block text-sm  text-gray-500 truncate dark:text-gray-400">name@flowbite.com</span>
+                </div>
+                <ul class="py-2" aria-labelledby="user-menu-button">
+                  <li>
+                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Dashboard</a>
+                  </li>
+                  <li>
+                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Settings</a>
+                  </li>
+                  <li>
+                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Earnings</a>
+                  </li>
+                  <li>
+                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign out</a>
+                  </li>
+                </ul>
+              </div>
+              
+        </div>
+    
+        <button data-collapse-toggle="navbar-user" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-user" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
+    </div>
+    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-user">
+        <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <li><a class="hover:text-[#ff6759]" href="index.html">Home</a></li>
+            <li><a class="hover:text-[#ff6759]" href="about.html">About</a></li>
+            <li><a class="hover:text-[#ff6759]" href="contact.html">Contact</a></li>
+          </ul>
+
+    </div>
+    </div>
+  </nav>
+  
+    <!-- navbar end -->
+
+    <section class="w-full pb-10  hero">
+        <div class="w-full md:w-1/2 m-auto space-y-4 pt-36">
+        <div class="flex flex-row items-center justify-center  w-56 h-9 rounded-2xl cursor-pointer bg-white m-auto">
+            <a class="text-sm px-3 py-1 rounded-2xl text-white bg-[#ff6759]" href="#">sign Up</a>
+            <p class="px-3 text-[#ff6759] text-sm">Generate Ai Arts</p>
+            <i class="fa-solid fa-angle-right text-[#ff6759]"></i>
+        </div>
+        <div class="py-4">
+            <h1 class="font-normal leading-[35px md:leading-[55px] text-[40px] md:text-[61px] font-roboto text-center text-white">Brand <span class="text-[#f8594a]">Name is Heart</span> of Arts</h1>
+            <p class="font-normal leading-8 text-[16px] md:text-[24px] text-[#ffffff] text-center py-8 md:py-12 font-roboto">A simple solution for creating and selling products that engage your fans and help you monetize your content. No cost, no hassle, no risk.</p>
+        </div>
+        <div class="relative">
+            <div class="absolute left-2 top-3">
+                <i class="fa-solid fa-search text-lg text-gray-500"></i>
+            </div>
+            <input type="text" class="pl-10 oultline-none w-full p-4 rounded-xl focus:outline-[#ff6759] font-roboto" placeholder="What's in your mind?">
+            <div class="absolute right-3 top-2">
+                <button type="button" class="bg-[#ff6759] text-white px-4 py-2 rounded-xl font-roboto text-sm">Generate</button>
+            </div>
+        </div>
+    </div>
+    </section>
+     <section class="pt-10 pb-10">
+        <div class="items-center pt-12 justify-center mx-auto">
+            <h2 class="text-center  text-[#111827] leading-[35px] md:leading[53px] font-bold text-[20px] md:text-[35px] font-roboto">What makes Brand Name superior</h2>
+            <p class="text-center pt-3 font-normal leading[26px] font-roboto text-[#6b7280] text-[16px]">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy.<br> Gastropub indxgo juice poutine, ramps microdosing banh mi pug.</p>
+            <div class="border-2 border-solid border-[#ff6759] w-full md:w-16 mx-auto rounded-md mt-5"></div>
+        </div>
+        <div class="flex flex-col md:flex-row pt-20 px-5 md:px-10">
+            <div class="w-full md:w-1/3">
+                <div class="text-center">
+                   <i class="fa-solid fa-layer-group text-[26px] text-[#ff6759] px-6 py-6 rounded-full bg-blue-100"></i>
+                   <h5 class="text-[18px] pt-5 leading-[27px] text-[#111827] font-medium font-roboto">400+ Print on demand products</h5>
+                   <p class="text-[#6b7280] font-normal leading-[26px] font-roboto text-[16px] pt-2">Shoes, Jewelry, Watches, T-shirts, Hoodies,<br> Bags, Rugs, Shower curtains, And more.</p>
+                </div>
+                <div class="text-center pt-4 space-x-1">
+                    <a class="text-[16px] font-normal leading-6 font-roboto text-[#ff6759]" href="#">Learn More</a>
+                    <i class="fa-solid fa-arrow-right text-[#ff6759] cursor-pointer"></i>
+                </div>
+            </div>
+            <div class="w-full md:w-1/3 ">
+                <div class="text-center">
+                   <i class="fa-solid fa-scissors text-[28px] text-[#ff6759] px-6 py-6 rounded-full bg-blue-100 mt-10 md:mt-0"></i>
+                   <h5 class="text-[18px] pt-5 leading-[27px] text-[#111827] font-medium font-roboto">Mockup generator</h5>
+                   <p class="text-[#6b7280] font-normal leading-[26px] font-roboto text-[16px] pt-2">Make it easier to publish products with your<br> custom designs, more actual display effect.</p>
+                </div>
+                <div class="text-center pt-4 space-x-1">
+                    <a class="text-[16px] font-normal leading-6 font-roboto text-[#ff6759]" href="#">Learn More</a>
+                    <i class="fa-solid fa-arrow-right text-[#ff6759] cursor-pointer"></i>
+                </div>
+            </div>
+            <div class="w-full md:w-1/3">
+                <div class="text-center">
+                   <i class="fa-regular fa-user text-[28px] text-[#ff6759] px-7 py-6 rounded-full bg-blue-100 mt-10 md:mt-0"></i>
+                   <h5 class="text-[18px] pt-5 leading-[27px] text-[#111827] font-medium font-roboto">Automatic/manual orders</h5>
+                   <p class="text-[#6b7280] font-normal leading-[26px] font-roboto text-[16px] pt-2">Free to manage & process order<br> manually/automatically with less time cost.</p>
+                </div>
+                <div class="text-center pt-4 space-x-1">
+                    <a class="text-[16px] font-normal leading-6 font-roboto text-[#ff6759]" href="#">Learn More</a>
+                    <i class="fa-solid fa-arrow-right text-[#ff6759] cursor-pointer"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mt-16 bg-gray-100 pb-10">
+        <div class="container px-5 md:px-20">
+            <div class="flex flex-col md:flex-row space-x-5 md:space-x-10">
+                <div class="w-full md:w-1/2 pt-10">
+                   <img src="images/image-1.jpg" alt="" class="rounded-md">
+                </div>
+                <div class="w-full md:w-1/2 mt-20">
+                   <h3 class="text-[28px] md:text-[35px] font-bold leading-[40px] md:leading-[53px] font-roboto text-[#111827] mt-5">Why we are different</h3>
+                   <p class="font-normal text-[16px] leading-[26px] font-roboto text-[#000000] mt-4">We offer over 400 print on demand products (shoes, watches, jewelry, shirts, rugs, and so on), as well as some fashion accessories that can be customized.There is no minimum order quantity, print on demand products, and print on demand dropshipping as desired.Your order will be air freighted; custom branded 3-day production and 7-day global express are available.</p>
+                    <div class="mt-10">
+                       <a class="text-sm px-6 py-3 rounded-3xl text-white text-[16px] font-medium bg-[#ff6759] hover:bg-slate-700" href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   <footer class="pt-5 pb-8">
+        <hr/>
+        <div class="flex flex-col md:flex-row justify-between px-5 md:px-10">
+            <div class="pt-6">
+                <p class="text-[#6b7280] font-normal leading-6 font-roboto text-[14px]">© 2023 Rashid Baloch. All Rights Reserved.</p>
+            </div>
+            <div class="flex flex-row space-x-4 pt-4 md:pt-6">
+                <p class="text-[#6b7280] text-[14px] leading-5 font-medium cursor-pointer hover:border-b-2">About</p>
+                <p class="text-[#6b7280] text-[14px] leading-5 font-medium cursor-pointer hover:border-b-2">Privacy policy</p>
+                <p class="text-[#6b7280] text-[14px] leading-5 font-medium cursor-pointer hover:border-b-2">Contact</p>
+            </div>
+        </div>
+    </footer>
+    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+</body>
+</html>
